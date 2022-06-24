@@ -14,7 +14,6 @@
     align-items: center;
 }
  
-/* Title of the game */
 .title{
     margin-top: 3rem;
     position: absolute;
@@ -23,7 +22,6 @@
     z-index: 2;
 }
  
-/* Score Board */
 .score{
     display: flex;
     width: 30vw;
@@ -35,14 +33,12 @@
     font-size: 1.5rem;
 }
  
-/* Score  */
 .p-count,.c-count{
     text-align: center;
     font-size: 2rem;
     margin-top: 1.5rem;
 }
  
-/* displaying three buttons in one line */
 .options{
     display: flex;
     width: 50vw;
@@ -50,7 +46,6 @@
     margin-top: 2rem;
 }
  
-/* Styling on all three buttons */
 .rock, .paper, .scissor{
     padding: 0.8rem;
     width: 100px;
@@ -72,7 +67,6 @@
     font-size: 1rem;
 }
  
-/* Reload button style */
 .reload {
     display: none;
     margin-top: 2rem;
@@ -89,7 +83,6 @@
     font-size: 1.2rem;
 }
  
-/* Responsive Design */
 @media screen and (max-width: 612px)
 {
     .title{
